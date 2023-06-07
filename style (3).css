@@ -1,11 +1,21 @@
 body{
-    background-color: #6411eb;
-    color: rgb(9, 9, 184)
+    background-color: #e20101;
+    color: rgb(5, 5, 5)
 }
 .cabecalho {
     background-color: #383D58;
     color: white;
     display:flex;
     justify-content: space-around;
+    width: 100%;
     }
-    
+.cabeçalho-imagem{
+    width: 100%;
+}
+.estudante-imagem{
+    width: 120px;
+}
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
