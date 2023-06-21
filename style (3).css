@@ -1,22 +1,31 @@
 body{
-    background-color: #e20101;
-    color: rgb(5, 5, 5)
+    background-color: #33da01;
+    color: rgb(55, 206, 17)
  }
  .cabecalho {
-    background-color: #383D58;
+    background-color: #0323d8;
     color: white;
     display:flex;
     justify-content: space-around;
-    width: 100%;
+    width: 150%;
     }
  .cabeçalho-imagem{
-    width: 100%;
+    width: 100px;
  }
  .estudante-imagem{
-    width: 120px;
+    width: 80%;
  }
  .estudante-icone{
     width: 24px;
     padding: 4px 8px;
  }
- 
+ .cabeçalho-imagem{
+   width: 200%
+}
+.estudante-titulo{
+   width: 100%;
+}
+.estudante{
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20% ;
+}
