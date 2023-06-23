@@ -10,13 +10,13 @@ body{
     width: 120%;
     }
  .cabeçalho-imagem{
-    width: 200%;
+    width: 100%;
  }
  .estudante-imagem{
-    width: 120px;
+    width: 50px;
  }
  .estudante-icone{
-    width: 24px;
+    width: 20px;
     padding: 4px 8px;
  }
  img {
@@ -29,4 +29,24 @@ body{
    h2{
       text-align: center;
       }
-      
+      .section{
+         display: flex;
+        }
+        .classe_aluno{
+         display:flex;
+         }
+         
+         .classe_aluno {
+         width: 500px;
+         height: 150px;
+         }
+
+         .estudante-imagem{
+            width: 150px;
+            height: 150px;
+         }
+         .imagem_aluno{
+            width: 650px;
+            height: 500px;
+         }
+         
