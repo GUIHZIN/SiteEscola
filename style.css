@@ -2,51 +2,83 @@ body{
     background-color: #e05118;
     color: rgb(5, 5, 5)
  }
+
  .cabecalho {
-    background-color: #2cf512;
+    background-color: #12dbf5;
     color: white;
     display:flex;
     justify-content: space-around;
     width: 120%;
     }
+
  .cabeçalho-imagem{
     width: 100%;
  }
+
  .estudante-imagem{
     width: 50px;
  }
+
  .estudante-icone{
     width: 20px;
     padding: 4px 8px;
  }
+
  img {
    width: 1550px;
    height: 500px;
    }
+
    h1{
       text-align: center;
       }
+
    h2{
       text-align: center;
       }
-      .section{
+
+      .section_1{
          display: flex;
         }
+
         .classe_aluno{
          display:flex;
          }
          
-         .classe_aluno {
-         width: 500px;
-         height: 150px;
-         }
-
          .estudante-imagem{
             width: 150px;
             height: 150px;
          }
+
          .imagem_aluno{
-            width: 650px;
-            height: 500px;
+            width: 400px;
+            height: 455px;
+         }
+         .coluna1{
+            display:flex;
+            flex-direction: column;
+         }
+
+         .coluna2{
+            display:flex;
          }
          
+         .coluna3{
+            display:flex;
+         }
+         
+         .coluna4{
+            display:flex;
+         }
+
+         .coluna5{
+            display:flex;
+         }
+
+         .coluna6{
+            display:flex;
+         }
+
+         .coluna7{
+            display:flex;
+         }
