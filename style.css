@@ -1,95 +1,95 @@
 body{
-    background-color: #e05118;
-    color: rgb(5, 5, 5)
- }
+   background-color: #e05118;
+   color: rgb(5, 5, 5)
+}
 
- .cabecalho {
-    background-color: #12dbf5;
-    color: white;
-    display:flex;
-    justify-content: space-around;
-    width: 120%;
-    }
-
- .cabeçalho-imagem{
-    width: 100%;
- }
-
- .estudante-imagem{
-    width: 50px;
- }
-
- .estudante-icone{
-    width: 20px;
-    padding: 4px 8px;
- }
-
- img {
-   width: 1550px;
-   height: 500px;
+.cabecalho {
+   background-color: #12dbf5;
+   color: white;
+   display:flex;
+   justify-content: space-around;
+   width: 120%;
    }
 
-   h1{
-      text-align: center;
-      }
+.cabeçalho-imagem{
+   width: 100%;
+}
 
-   h2{
-      text-align: center;
-      }
+.estudante-imagem{
+   width: 50px;
+}
 
-      .section_1{
-         display: flex;
+.estudante-icone{
+   width: 20px;
+   padding: 4px 8px;
+}
+
+img {
+  width: 1550px;
+  height: 500px;
+  }
+
+  h1{
+     text-align: center;
+     }
+
+  h2{
+     text-align: center;
+     }
+
+     .section_1{
+        display: flex;
+       }
+
+       .classe_aluno{
+        display:flex;
+        }
+        
+        .estudante-imagem{
+           width: 150px;
+           height: 150px;
         }
 
-        .classe_aluno{
-         display:flex;
-         }
-         
-         .estudante-imagem{
-            width: 150px;
-            height: 150px;
-         }
+        .imagem_aluno{
+           width: 340px;
+           height: 270px;
+        }
 
-         .imagem_aluno{
-            width: 340px;
-            height: 270px;
-         }
+        .imagem_aluno:hover{
+           width: 270px;
+           height:260px;
+           transition: 500ms;
+           }
+           
+        .coluna1{
+           display:flex;
+           flex-direction: column;
+        }
 
-         .imagem_aluno:hover{
-            width: 270px;
-            height:260px;
-            transition: 500ms;
-            }
-            
-         .coluna1{
-            display:flex;
-            flex-direction: column;
-         }
+        .coluna2{
+           display:flex;
+        }
+        
+        .coluna3{
+           display:flex;
+        }
+        
+        .coluna4{
+           display:flex;
+        }
 
-         .coluna2{
-            display:flex;
-         }
-         
-         .coluna3{
-            display:flex;
-         }
-         
-         .coluna4{
-            display:flex;
-         }
+        .coluna5{
+           display:flex;
+        }
 
-         .coluna5{
-            display:flex;
-         }
+        .coluna6{
+           display:flex;
+        }
 
-         .coluna6{
-            display:flex;
-         }
+        .coluna7{
+           display:flex;
+        }
 
-         .coluna7{
-            display:flex;
-         }
-
-         .bloco1{
-            display:block;
-         }
+        .bloco1{
+           display:block;
+        }
